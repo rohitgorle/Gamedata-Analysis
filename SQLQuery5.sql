@@ -165,3 +165,11 @@ when rank > 30 and rank < 41 then 50
 when rank > 40 and rank <= 50 then 25 end as Loyalty_bonus_prize
 from ranking_table
 WHERE rank <= 50;
+
+
+/* 
+Suggestions
+1. So the formula we have for loyalty bonus depends on the activaties such as games played , deposit and withdrawal 
+2. Wins Bonus Introduce a new bonus specifically based on the number of wins. This bonus will encourage users to win more and play more
+3. we can have periodic challenges or tournaments where users can compete against each other for additional bonus rewards.
+*/
